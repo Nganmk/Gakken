@@ -4,11 +4,7 @@ body {
 }
 
 .container {
-    width: 953px;
-}
-.header_logo img {
-    width: 120px;
-    height: 24px;
+    max-width: 980px !important ;
 }
 
 .header_slogan p {
@@ -17,36 +13,16 @@ body {
     letter-spacing: 0.03em;
 }
 
-.social_media li {
-    padding-left: 18px;
-} 
-
-.header_slogan {
-    padding-left: 8px;
-}
-
 .header {
-    padding-top: 25px;
-    padding-bottom: 5px;
     border-bottom: 1px solid #555555;
 }
 
-.slider {
-    width: 100%;
-    margin: 0 auto;
-}
 .slider_item {
     border-radius: 5px;
-    
 }
 
 .book_showlist {
     padding-top: 64px;
-}
-
-.book_slider_gallery {
-    padding-top: 31px;
-    padding-bottom: 31px;
 }
 
 .rating_star {
@@ -76,44 +52,32 @@ body {
 }
 
 .play_smart_lineup_title, .new_title_title {
-    padding-top: 45px;
-    padding-bottom: 45px;
     font-size: 40px;
     color: #22AE6D;
 }
 
-.new_title_book_lists img {
-    width: 100%;
-}
-
-.new_title_book_lists {
-    padding-bottom: 43px;
-}
-
 .award_description {
-    font-size: 38px;
+    font-size: 36px;
 }
 
 .award_1 {
     color: #FF4040;
-    position: relative;
-    right: 50px;
 }
 
 .award_2 {
     color: #22AE6D;
-    position: relative;
-    right: 37px;
+}
+
+.awards_image_1 {
+    max-height: 152px;
 }
 
 .quotes {
-    font-size: 25px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    position: relative;
-    top: 58px;
+    font-size: 22px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .open_quote_icon {
@@ -128,60 +92,44 @@ body {
     bottom: 0;
 }
 
-.award_title {
-    position: relative;
-    top: 38px;
-    right: 21px;
-}
-
 .youtube {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .free_printables, .reviews_award {
     background-color: #E6DECA;
-    padding: 50px;
-    border-radius: 195px;
+}
+
+@media (min-width: 992px) {
+.free_printables .p-5 {
+    padding: 60px !important;
+}
+
+.reviews_award .p-5 {
+    padding-top: 60px !important;
+}
+
+.award_title {
     position: relative;
+    top: 25px;
+    right: 50px;
 }
 
-.image1 {
-    transform: rotate(270deg);
-    position: absolute;
-    top: 55px;
-    left: 50px;
+.award_1 {
+    position: relative;
+    right: 50px;
 }
 
-.image2 {
-    position: absolute;
-    top: 90px;
-    left: 50px;
-    transform: rotate(300deg);
+.award_2 {
+    position: relative;
+    right: 37px;
 }
 
-.image3 {
-    position: absolute;
-    top: 55px;
-    left: 50px;
+.quotes, .youtube {
+    position: relative;
+    top: 25px;
 }
-
-.content {
-    text-align: center;
 }
-
-.reviews_award_title {
-    margin-bottom: 25px;
-}
-
-.free_printables_content_title {
-    padding-left: 75px !important;
-    padding-top: 45px;
-}
-
-.free_printables_content {
-    padding-top: 75px !important;
-}
-
 .content_title {
     padding-left: 20px;
     text-align: center;
@@ -209,28 +157,12 @@ body {
 .for_retailer {
     background-color: #22AE6D;
     padding: 25px;
-    font-size: 24px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
 }
-
-.image5 {
-    transform: rotate(20deg);
-    position: relative;
-    top: -158px;
-    left: 37px;
-}
-
-.for_retailer_title_content {
-    padding-left: 80px;
-    text-align: center;
-    padding-top: 6px;
-}
-
-.for_retailer_contact {
-    position: relative;
-    top: -130px;
-    font-size: 20px;
+.for_retailer_title_image {
+max-width: 200px;
 }
 
 .mail_subcribe_title {
@@ -301,6 +233,7 @@ p {
 
 .embed-responsive-item {
     width: 75%;
+    height: 250px;
 }
 
 .youtube {
@@ -314,7 +247,7 @@ p {
 .mask {
     display: none;
     width: 100%;
-    height: 100%;
+    height: 290px;
     background-color: rgba(154,210,210,0.8);
 }
 
