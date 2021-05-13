@@ -1,0 +1,334 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #555555;
+}
+
+.container {
+    width: 953px;
+}
+.header_logo img {
+    width: 120px;
+    height: 24px;
+}
+
+.header_slogan p {
+    font-size: 21px;
+    color: #22AE6D;
+    letter-spacing: 0.03em;
+}
+
+.social_media li {
+    padding-left: 18px;
+} 
+
+.header_slogan {
+    padding-left: 8px;
+}
+
+.header {
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #555555;
+}
+
+.slider {
+    width: 100%;
+    margin: 0 auto;
+}
+.slider_item {
+    border-radius: 5px;
+    
+}
+
+.book_showlist {
+    padding-top: 64px;
+}
+
+.book_slider_gallery {
+    padding-top: 31px;
+    padding-bottom: 31px;
+}
+
+.rating_star {
+    padding-right: 30px;
+}
+
+.rating_link {
+    font-size: 22px !important;
+    padding-left: 30px !important;
+}
+
+.rating_link a {
+    color: black !important;
+}
+
+.amazon_reviews {
+    padding-top: 30px;
+}
+
+.amazon_reviews_lists {
+    margin-left: 12.5px;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.amazon_reviews_lists ul {
+    line-height: 1.5;
+}
+
+.play_smart_lineup_title, .new_title_title {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    font-size: 40px;
+    color: #22AE6D;
+}
+
+.new_title_book_lists img {
+    width: 100%;
+}
+
+.new_title_book_lists {
+    padding-bottom: 43px;
+}
+
+.award_description {
+    font-size: 38px;
+}
+
+.award_1 {
+    color: #FF4040;
+    position: relative;
+    right: 50px;
+}
+
+.award_2 {
+    color: #22AE6D;
+    position: relative;
+    right: 37px;
+}
+
+.quotes {
+    font-size: 25px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    top: 58px;
+}
+
+.open_quote_icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.close_quote_icon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.award_title {
+    position: relative;
+    top: 38px;
+    right: 21px;
+}
+
+.youtube {
+    font-size: 25px;
+}
+
+.free_printables, .reviews_award {
+    background-color: #E6DECA;
+    padding: 50px;
+    border-radius: 195px;
+    position: relative;
+}
+
+.image1 {
+    transform: rotate(270deg);
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.image2 {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    transform: rotate(300deg);
+}
+
+.image3 {
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.content {
+    text-align: center;
+}
+
+.reviews_award_title {
+    margin-bottom: 25px;
+}
+
+.free_printables_content_title {
+    padding-left: 75px !important;
+    padding-top: 45px;
+}
+
+.free_printables_content {
+    padding-top: 75px !important;
+}
+
+.content_title {
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.content-description {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.more_infor_btn {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+    border: 4px solid white;
+    background: none;
+}
+
+.for_retailer {
+    background-color: #22AE6D;
+    padding: 25px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.image5 {
+    transform: rotate(20deg);
+    position: relative;
+    top: -158px;
+    left: 37px;
+}
+
+.for_retailer_title_content {
+    padding-left: 80px;
+    text-align: center;
+    padding-top: 6px;
+}
+
+.for_retailer_contact {
+    position: relative;
+    top: -130px;
+    font-size: 20px;
+}
+
+.mail_subcribe_title {
+    font-size: 34px;
+    color: #22AE6D;
+    text-align: center;
+}
+
+.mail_subcribe_content {
+    background-color: #22AE6D;
+    border: 2px solid #22AE6D;
+    width: fit-content;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.mail_subcribe_content p {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+}
+
+form {
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.input-group span, .input-group input, .mask button {
+    border: none;
+    background: none;
+}
+
+.input-group span {
+    color: #22AE6D;
+}
+
+.input-group input {
+    width: 345px !important;
+}
+
+.d-grid button {
+    background-color: #22AE6D;
+    color: white;
+    margin-top: 25px;
+    border-radius: 0;
+    margin-bottom: 5px;
+}
+
+.input-group {
+    border-bottom: 1px solid black;
+}
+
+.footer {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.bold {
+    font-weight: 700 !important;
+}
+
+.embed-responsive-item {
+    width: 75%;
+}
+
+.youtube {
+    padding-top: 10px;
+}
+
+.for_retailer_contact a {
+    color: white;
+}
+
+.mask {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(154,210,210,0.8);
+}
+
+.new_title_book_lists_item:hover .mask {
+    display: block;
+}
+
+.slider-arrow {
+    margin: auto;
+    color: white;
+    text-shadow: 1px 1px 8px #4e4e4e;
+}
+
+
+
+
+
