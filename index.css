@@ -100,36 +100,6 @@ body {
     background-color: #E6DECA;
 }
 
-@media (min-width: 992px) {
-.free_printables .p-5 {
-    padding: 60px !important;
-}
-
-.reviews_award .p-5 {
-    padding-top: 60px !important;
-}
-
-.award_title {
-    position: relative;
-    top: 25px;
-    right: 50px;
-}
-
-.award_1 {
-    position: relative;
-    right: 50px;
-}
-
-.award_2 {
-    position: relative;
-    right: 37px;
-}
-
-.quotes, .youtube {
-    position: relative;
-    top: 25px;
-}
-}
 .content_title {
     padding-left: 20px;
     text-align: center;
@@ -261,7 +231,40 @@ p {
     text-shadow: 1px 1px 8px #4e4e4e;
 }
 
+@media (min-width: 992px) {
+    .free_printables .p-5 {
+        padding: 60px !important;
+    }
+    
+    .reviews_award .p-5 {
+        padding-top: 60px !important;
+    }
+    
+    .award_title {
+        position: relative;
+        top: 25px;
+        right: 50px;
+    }
+    
+    .award_1 {
+        position: relative;
+        right: 50px;
+    }
+    
+    .award_2 {
+        position: relative;
+        right: 37px;
+    }
+    
+    .quotes, .youtube {
+        position: relative;
+        top: 25px;
+    }
+}
 
-
-
+@media (max-width: 991px) {
+    body {
+        position: absolute !important;
+    }
+}
 
