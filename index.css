@@ -231,9 +231,9 @@ p {
     font-weight: 700 !important;
 }
 
-.embed-responsive-item {
-    width: 75%;
-    height: 250px;
+.youtubemb iframe {
+    width: 100%;
+    height: 470px;
 }
 
 .youtube {
